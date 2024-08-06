@@ -1,0 +1,118 @@
+.hotline{
+   font-size: x-large;
+   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  
+}
+.card-header{
+    font-size: x-large;
+   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+    
+
+.Get{
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+.get{
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.bodyblack{
+    background-color: #272829;
+    
+  
+}
+
+                                
+.cardmom{
+    margin-top: 3rem;
+}
+.cardmomm{
+    margin-top: 7rem;
+    
+}
+.card-header
+{
+    background-color: #d71212c2;
+   
+}
+.list-group-item{
+    background-color: #272829;
+    color: white;
+}
+.foot{
+    
+    background-color: #bc1d1dc2;
+}
+.d-flex {
+    padding-bottom: 20px;
+}
+.links{
+    text-decoration: none;
+  color: inherit;
+}
+.links:hover{
+    color: red;
+}
+.note{
+    color:white;
+}
+.pnote{
+    color: white;
+}
+.fa-2xl{
+    padding:7% 5%;
+}
+@media (max-width:419px) {
+    .hotline{
+        
+        font-family: 'Roboto', sans-serif;
+        font-size: large;
+       
+     }
+     .get{
+        font-family: 'Roboto', sans-serif;
+        font-size: large;
+        padding-top: 10%;
+     }
+     .Get{
+        font-family: 'Roboto', sans-serif;
+        font-size: large;
+        padding-top: 30px;
+     }
+     .fa-2xl{
+        padding:15% 5%;
+    }
+         
+}
+@media(max-width:1800px) and (min-width:993px)
+{
+    .cardsm{
+        margin-top:85px ;
+    }
+}
+
+@media (min-width: 995px) {
+    .cardmomm {
+        display: none; /* Hide the card content */ 
+    }
+    .note{
+        display: none; /* Hide the card content */ 
+    }
+    .pnote{
+        display: none; /* Hide the card content */ 
+    }
+  }
+  @media(max-width:997px)
+  {
+    .cardmom{
+        display:none;
+    }
+  }
